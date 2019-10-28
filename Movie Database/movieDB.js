@@ -24,5 +24,5 @@ for(var i=0; i<=movie.length-1; i++){
     } else{
         watchStatus = "not watched";
     }
-    console.log("You " + watchStatus + " \"" + movie[i].title + "\" - " + movie[i].rating + " stars");
+    console.log("You have " + watchStatus + " \"" + movie[i].title + "\" - " + movie[i].rating + " stars");
 }
